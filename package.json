@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/posthtml/posthtml-doctype.git"
+    "url": "git+https://github.com/voischev/posthtml-textr.git"
   },
   "keywords": [
     "html",
@@ -38,7 +38,7 @@
   "author": "Ivan Voischev <voischev.ivan@ya.ru>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/posthtml/posthtml-doctype/issues"
+    "url": "https://github.com/voischev/posthtml-textr/issues"
   },
-  "homepage": "https://github.com/posthtml/posthtml-doctype#readme"
+  "homepage": "https://github.com/voischev/posthtml-textr#readme"
 }
