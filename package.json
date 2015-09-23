@@ -1,0 +1,44 @@
+{
+  "name": "posthtml-textr",
+  "version": "0.0.0",
+  "description": "Textr posthtml plugin",
+  "main": "index.js",
+  "dependencies": {
+    "textr": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "posthtml": "^0.2.0",
+    "typographic-quotes": "^1.2.1"
+  },
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "jshint . && jscs . -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posthtml/posthtml-doctype.git"
+  },
+  "keywords": [
+    "html",
+    "xml",
+    "textr",
+    "text",
+    "format",
+    "typography",
+    "postproccessor",
+    "parser",
+    "transform",
+    "manipulation",
+    "plugin"
+  ],
+  "author": "Ivan Voischev <voischev.ivan@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/posthtml/posthtml-doctype/issues"
+  },
+  "homepage": "https://github.com/posthtml/posthtml-doctype#readme"
+}
