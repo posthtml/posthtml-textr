@@ -1,7 +1,7 @@
 {
   "name": "posthtml-textr",
-  "version": "0.0.0",
-  "description": "Textr posthtml plugin",
+  "version": "1.0.0",
+  "description": "Textr PostHTML plugin",
   "main": "index.js",
   "dependencies": {
     "textr": "^0.3.0"
