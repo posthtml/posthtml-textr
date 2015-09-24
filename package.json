@@ -33,7 +33,8 @@
     "parser",
     "transform",
     "manipulation",
-    "plugin"
+    "plugin",
+    "posthtml"
   ],
   "author": "Ivan Voischev <voischev.ivan@ya.ru>",
   "license": "MIT",
