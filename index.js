@@ -1,4 +1,4 @@
-module.exports = function(options, plugins) {
+module.exports = function posthtmlTextr(options, plugins) {
     options = options || {};
     plugins = [].concat(plugins) || [];
 
