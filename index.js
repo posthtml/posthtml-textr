@@ -10,7 +10,7 @@ module.exports = function posthtmlTextr(options, plugins) {
 
     return function(tree) {
         tree.walk(function(node) {
-            if(typeof(node) === 'string') {
+            if(typeof(node) === 'string' && /^\n\s*$/.test(node)) {
                 return tr(node);
             }
             return node;
