@@ -1,6 +1,6 @@
 {
   "name": "posthtml-textr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Textr PostHTML plugin",
   "main": "index.js",
   "dependencies": {
@@ -34,7 +34,8 @@
     "transform",
     "manipulation",
     "plugin",
-    "posthtml"
+    "posthtml",
+    "posthtml-plugin"
   ],
   "author": "Ivan Voischev <voischev.ivan@ya.ru>",
   "license": "MIT",

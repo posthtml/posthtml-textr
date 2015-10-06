@@ -1,4 +1,4 @@
-module.exports = function posthtmlTextr(options, plugins) {
+module.exports = function(options, plugins) {
     options = options || {};
     plugins = [].concat(plugins) || [];
 
@@ -8,7 +8,7 @@ module.exports = function posthtmlTextr(options, plugins) {
         tr.use(plugin);
     });
 
-    return function(tree) {
+    return function posthtmlTextr(tree) {
         tree.walk(function(node) {
             if(typeof(node) === 'string' && !/^\n\s*$/.test(node)) {
                 return tr(node);
