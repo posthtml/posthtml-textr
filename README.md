@@ -1,7 +1,7 @@
 # PostHTML-Textr
 [![npm version](https://badge.fury.io/js/posthtml-textr.svg)](http://badge.fury.io/js/posthtml-textr)
 
-[PostHTML](http://github.com/posthtml/posthtml) plugin wrapper over [Textr](http://shuvalov-anton.github.io/textr) modular typographic framework
+[PostHTML](http://github.com/posthtml/posthtml) plugin wrapper over [Textr](http://a.github.io/textr) modular typographic framework
 
 ## Usage
 
